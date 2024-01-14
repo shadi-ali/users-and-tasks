@@ -18,7 +18,7 @@
     /************   2- insert data into (task table)     ***********/
     /************ 3- insert data into (task_user table)   *********/
     ?>
-    <form action="" method="post" class="w-50 mx-auto mt-4 p-2 pt-4 border rounded d-flex flex-column gap-3">
+    <form action="" method="post" class="w-50 mx-auto mt-4 p-2 pt-4 border rounded d-flex flex-column gap-3 shadow-lg">
         <div class="namediv row ">
             <label for="n" class="col-4">create task name :</label>
             <input type="text" name="TaskName" id="n" class="col-7">

@@ -33,7 +33,7 @@
                         $TaskName=$row_read['TaskName'];
                         $description=$row_read['discription'];
                         ?>
-                        <div class="card d-flex flex-column gap-2 w-25 mx-auto mt-4 p-2">
+                        <div class="card d-flex flex-column gap-2 w-25 mx-auto mt-4 p-2 shadow-lg">
                             <h6 class="text-info text-decoration-underline d-block text-center" name="TaskName"><?php echo $TaskName;?></h6>
                             <div class="dis">
                                 <label for="d" class="d-block">Description :</label>

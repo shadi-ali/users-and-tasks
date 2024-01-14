@@ -16,7 +16,7 @@
     $sql="SELECT * FROM users ;";
     $result=$conn->query($sql);
     ?>
-    <form action="" method="post" class="w-50 mt-3 mx-auto text-center">
+    <form action="" method="post" class="w-50 mt-5 p-3 mx-auto text-center shadow-lg">
         <div class="namediv row m-2">
         <label for="n" class="col-4 ">User Name:</label>
         <input type="text" id="n" name="UserName" class="col-6">
