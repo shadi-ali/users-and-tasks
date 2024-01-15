@@ -25,11 +25,11 @@
         ?>
         <a href="../tasks/index.php" class="position-fixed top-0 start-0 m-4 border border-info rounded-circle p-2"><i class="fa-solid fa-list-check"></i></a>
         <a href="create.php" class="position-fixed top-0 end-0 m-4 border border-info rounded-circle p-2"><i class="fa-solid fa-plus"></i></a>
-        <table class="text-center w-50 mx-auto mt-3 p-3 shadow-lg">
+        <table class="text-center w-50 mx-auto mt-5 p-3 shadow-lg">
             <tr class="row text-info">
-                <th class="col  p-1">Name</th>
-                <th class="col  p-1">City</th>
-                <th class="col  p-1">update</th>
+                <th class="col border p-1">Name</th>
+                <th class="col border p-1">City</th>
+                <th class="col border p-1">update</th>
                 <th class="col border p-1">delete</th>
             </tr>
             <?php
